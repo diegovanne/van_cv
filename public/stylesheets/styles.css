@@ -69,10 +69,12 @@ body {
 
 .resume .resume_left .bold {
     color: #fff;
+    text-align: center;
 }
 
 .resume .resume_left .regular {
     color: #b1eaff;
+    text-align: center;
 }
 
 .resume .resume_item {
@@ -128,6 +130,8 @@ body {
 
 .resume .resume_left .resume_skills ul li .skill_name {
     width: 100%;
+    display: list-item;
+    list-style-type: square;
 }
 
 .resume .resume_left .resume_skills ul li .skill_progress {
